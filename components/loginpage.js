@@ -9,7 +9,7 @@ const Loginpage = ({
 }) => {
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Login page</h1>
+      <h1 style={{ textAlign: "center" }}>Welcome to the Login page</h1>
       <form
         onSubmit={(e) => handleSubmit(e, email, password)}
         style={{
@@ -29,7 +29,7 @@ const Loginpage = ({
           }}
         >
           <label id="email" style={{ fontSize: "2rem" }}>
-            Email
+            Enter your Email Id
           </label>
           <input
             type="email"
@@ -49,7 +49,7 @@ const Loginpage = ({
           }}
         >
           <label id="password" style={{ fontSize: "1.5rem" }}>
-            Password
+            Enter Your Password
           </label>
           <input
             type="password"
@@ -62,7 +62,7 @@ const Loginpage = ({
           type="submit"
           style={{
             border: "none",
-            backgroundColor: "green",
+            backgroundColor: "red",
             fontSize: "1.8rem",
             padding: "1rem 3rem",
             color: "purple",
